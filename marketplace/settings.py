@@ -27,9 +27,9 @@ SECRET_KEY = 'django-insecure-*!fc60jqmx2^queogk5&zxub6%+lx)$o*ua&_4ij@c56=pl+!@
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    'summerclass-vjad.onrender.com'
-    '127.0.0.1'
-    'localhost'
+    'summerclass-vjad.onrender.com',
+    '127.0.0.1',
+    'localhost',
 ]
 
 
@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'marketplace.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases
 
-DATABASE ={
+DATABASES ={
     'default': dj_database_url.config(
         default=os.environ.get('DATABASE_URL')
     )
