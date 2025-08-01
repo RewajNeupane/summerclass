@@ -26,7 +26,11 @@ SECRET_KEY = 'django-insecure-*!fc60jqmx2^queogk5&zxub6%+lx)$o*ua&_4ij@c56=pl+!@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'summerclass-vjad.onrender.com'
+    '127.0.0.1'
+    'localhost'
+]
 
 
 
